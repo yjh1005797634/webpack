@@ -1,4 +1,5 @@
 
+### git推送
 1)git init
 2)touch .gitignore 在里面编辑 .DS_Store 和 node_modules 忽略这两个
 3)git add .  添加所有文件夹及文件到暂缓区
