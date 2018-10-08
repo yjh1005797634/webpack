@@ -9,7 +9,7 @@
 6)git push -u master 即可
 
 
-
+## webpack3 详细前后端配置及采坑
 一、publicPath和public区别
     1.public是output项目打包后在本地的输出地址
     2.publicPath 是可有可无的 但引入image图片时  必须用到 因为图片的加载是要生成新的
