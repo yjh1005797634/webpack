@@ -1,4 +1,12 @@
 
+1)git init
+2)touch .gitignore 在里面编辑 .DS_Store 和 node_modules 忽略这两个
+3)git add .  添加所有文件夹及文件到暂缓区
+4)git commit -m '提交到master'
+5)git add remote origin https://github.com/yjh1005797634/webpack.git
+6)git push -u master 即可
+
+
 一、publicPath和public区别
     1.public是output项目打包后在本地的输出地址
     2.publicPath 是可有可无的 但引入image图片时  必须用到 因为图片的加载是要生成新的
