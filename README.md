@@ -1,11 +1,13 @@
 
 ### git推送
+
 1)git init
 2)touch .gitignore 在里面编辑 .DS_Store 和 node_modules 忽略这两个
 3)git add .  添加所有文件夹及文件到暂缓区
 4)git commit -m '提交到master'
 5)git add remote origin https://github.com/yjh1005797634/webpack.git
 6)git push -u master 即可
+
 
 
 一、publicPath和public区别
