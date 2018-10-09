@@ -1,12 +1,13 @@
 
-##React 服务端渲染 SSR
+### React 服务端渲染 SSR
+
  一、客户端(浏览器)
     1.访问url 发送请求
     2.服务器端渲染完成的HTML 显示到浏览器中,需要家长bundle.js文件
     3.获取bundle.js文件内容 发送bundle.js的请求
     4.加载运行bundle.js 进行客户端渲染
     5.bundle.js中发送ajax请求
-    6.获取到ajax数据 完成客户端渲染 
+    6.获取到ajax数据 完成客户端渲染
 
  二、服务器端(node)
     1.接收请求
